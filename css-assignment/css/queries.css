@@ -284,6 +284,8 @@
 .amount{
     font-size: 20px;
     margin-top: 4px;
+    font-family: "Roboto",sans-serif;
+
 }
 .old-price{
     font-size: 16px;
@@ -292,6 +294,8 @@
         text-align: center;
         font-weight: bold;
         margin-top: 0px;
+        font-family: "Roboto",sans-serif;
+
     }
 .price{
     gap: 0px;
@@ -309,36 +313,45 @@
         padding-bottom: 4px;
         padding-left: 9px;
         padding-right: 9px;
+        font-family: "Roboto",sans-serif;
+
 }
     #image1 {
         height: 190px;
         width: 310px;
-        padding-left: 34px;
+        margin-left: 34px;
         margin-right: 10px;
         margin-bottom: 16px;
-        padding-top: 25px;
+        margin-top: 25px;
+        border-radius: 20px;
+
     }
 
     #image2 {
         height: 190px;
         width: 310px;
-        padding-left: 34px;
+        margin-left: 34px;
         margin-bottom: 16px;
+        border-radius: 20px;
+
     }
 
     #image3 {
         height: 190px;
         width: 310px;
-        padding-left: 34px;
+        margin-left: 34px;
         margin-bottom: 27px;
-        margin-left: 0;
+        border-radius: 20px;
+
     }
 
     #image4 {
         height: 190px;
         width: 310px;
-        padding-left: 34px;
+        margin-left: 34px;
         margin-bottom: 16px;
+        border-radius: 20px;
+
     }
 
     .customer {
@@ -399,7 +412,6 @@
         border-radius: 20px;
         position: absolute;
         transform: translate(4%, -360%);
-        position: relative;
         padding: 10px;
         margin-top: 100px;
     }
